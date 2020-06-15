@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hiermptt"
+version = "0.1.0"
+description = ""
+authors = ["Julita Marshall <julitamcg5@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^3.0.7"
+django-mptt = "^0.11.0"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.5.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
